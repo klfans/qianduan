@@ -62,6 +62,9 @@ em {
     font-weight: bolder;
 }
 .qui-aside{
+    position: absolute;
+    top: 30px;
+    left: 270px;
     height: 800px;
     width: 200px;
     border: 1px solid black;
@@ -69,10 +72,34 @@ em {
 }
 .nav-aside a{
     font-size: 16px;
-    color: green;
+    color: white;
     text-decoration: none;
+    line-height: 50px;
+}
+.nav-aside{
+    padding: 50px 10px;
+}
+.nav-aside a:hover{
+    color: white;
+    background-color: #2bab79;
 }
 ul{
     list-style: none;
 
+}
+.qui-footer{
+    line-height: 20px;
+    text-align: center;
+    height: 60px;
+    background-color: #c1d1d5;
+}
+.qui-footer span{
+    margin-left: 5px;
+}
+.qui-footer a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 10px;
+    line-height: 50px;
 }
